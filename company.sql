@@ -13,7 +13,7 @@ CREATE TABLE department (
    PRIMARY KEY (id)
 );
 
---Create "role table" within Compnay_db--
+-- Create "role table" within Compnay_db --
 CREATE TABLE roles (
   id INTEGER NOT NULL AUTO_INCREMENT, 
   title VARCHAR(30) NOT NULL,
@@ -21,7 +21,7 @@ CREATE TABLE roles (
   department_id INTEGER,
 );
 
---Create "employee table" within Compnay_db--
+-- Create "employee table" within Compnay_db --
 CREATE TABLE employee (
   id INTEGER NOT NULL AUTO_INCREMENT, 
   first_name VARCHAR(30) NOT NULL,
