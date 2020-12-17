@@ -6,7 +6,7 @@ const connection = mysql.createConnection({
    //your name
    user: "root",
    //personal password from mySQL ...hide..
-   password: "",
+   password: "19Thunder@",
    //file name you created in MYSql
    database: "company_db"
    
